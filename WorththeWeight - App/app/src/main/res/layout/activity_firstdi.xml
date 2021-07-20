@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinnerfirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/spinach"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Spinach and Artichoke Dip Pasta"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        8 ounces whole-wheat rotini\n
+        1 (5 ounce) package baby spinach, roughly chopped\n
+        4 ounces reduced-fat cream cheese, cut into chunks\n
+        ¾ cup reduced-fat milk\n
+        ½ cup grated Parmesan cheese, plus more for garnish, \n
+        if desired\n
+        2 teaspoons garlic powder\n
+        ¼ teaspoon ground pepper\n
+        1 (14 ounce) can artichoke hearts, rinsed, \n
+        squeezed dry and chopped
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Bring a large saucepan of water to a boil. Cook pasta according to package directions. Drain.\nCombine spinach and 1 tablespoon water in a large saucepan over medium heat. Cook, stirring occasionally, until just wilted, about 2 minutes. Transfer to a small bowl. Add cream cheese and milk to the pan; whisk until the cream cheese is melted. Add Parmesan, garlic powder and pepper; cook, whisking until thickened and bubbling. Drain as much liquid as possible from the spinach. Stir the drained spinach into the sauce, along with artichokes and the pasta. Cook until warmed through.\n
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+•	protein 16.6g\n
+•	carbohydrates 56.1g\n
+•	dietary fiber 7.9g\n
+•	sugars 6g\n
+•	fat 9.1g\n
+•	saturated fat 4.4g\n
+•	cholesterol 26.2mg\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinnersecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/noodles"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Zucchini Noodles with Avocado Pesto and Shrimp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        5-6 medium zucchini (2 1/4-2 1/2 \n
+        pounds total), trimmed\n
+        ¾ teaspoon salt, divided\n
+        1 ripe avocado\n
+        1 cup packed fresh basil leaves\n
+        ¼ cup unsalted shelled pistachios\n
+        2 tablespoons lemon juice\n
+        ¼ teaspoon ground pepper\n
+        ¼ cup extra-virgin olive oil plus \n
+        2 tablespoons, divided\n
+        3 cloves garlic, minced\n
+        1 pound raw shrimp (21-25 count), peeled and \n
+        deveined, tails left on if desired\n
+        1-2 teaspoons Old Bay seasoning
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Using a spiral vegetable slicer or a vegetable peeler, cut zucchini lengthwise into long, thin strands or strips. Stop when you reach the seeds in the middle (seeds make the noodles fall apart). Place the zucchini noodles in a colander and toss with 1/2 teaspoon salt. Let drain for 15 to 30 minutes, then gently squeeze to remove any excess water.\n
+Meanwhile, combine avocado, basil, pistachios, lemon juice, pepper and the remaining 1/4 teaspoon salt in a food processor. Pulse until finely chopped. Add 1/4 cup oil and process until smooth.\n
+Heat 1 tablespoon oil in a large skillet over medium-high heat. Add garlic and cook, stirring, for 30 seconds. Add shrimp and sprinkle with Old Bay; cook, stirring occasionally, until the shrimp is almost cooked through, 3 to 4 minutes. Transfer to a large bowl.\n
+Add the remaining 1 tablespoon oil to the pan. Add the drained zucchini noodles and gently toss until hot, about 3 minutes. Transfer to the bowl, add the pesto and gently toss to combine.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+•	446 calories; \n
+•	protein 25.9g; \n
+•	carbohydrates 15.8g; \n
+•	dietary fiber 6.6g; \n
+•	sugars 6.6g; \n
+•	fat 33.2g; \n
+•	saturated fat 4.7g; \n
+•	cholesterol 158.8mg; \n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

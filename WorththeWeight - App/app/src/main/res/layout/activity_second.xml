@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/eggbacon"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Scrambled Eggs with Ramps and Bacon"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        6-8 ramps (see Tip)\n
+        2 slices bacon, chopped\n
+        2 tablespoons minced shallot\n
+        4 large eggs\n
+        ⅛ teaspoon salt\n
+        Ground pepper to taste\n
+        "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Rinse ramps well and pat dry. Trim the stem ends and cut the greens from the stems. Thinly slice the stems and the greens; keep separate.\n
+Cook bacon in a medium nonstick skillet over medium heat until crisp, 5 to 6 minutes. Transfer to a paper towel-lined plate to drain. Reserve 1 teaspoon of the drippings in the pan, discarding the rest.\n
+Add shallot and the ramp stems to the drippings and cook, stirring constantly, until tender, 1 to 2 minutes. Push to one side. Add the ramp greens and cook, stirring, just until slightly wilted. Reserve about 1 tablespoon of the greens for topping.\n
+Whisk eggs, salt and pepper in a medium bowl until well blended. Add to the pan along with the bacon and cook over medium heat, gently lifting and folding with a rubber spatula, until very softly set and still slightly wet-looking, about 2 minutes.\n
+Divide between 2 plates. Top with the reserved greens. Serve immediately.\n"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="•	protein 16.6g\n
+•	carbohydrates 56.1g\n
+•	dietary fiber 7.9g\n
+•	sugars 6g\n
+•	fat 9.1g\n
+•	saturated fat 4.4g\n
+•	cholesterol 26.2mg\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

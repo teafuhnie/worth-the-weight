@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/carrot"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Carrot Cake Gelly Shots"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+Carrot layer\n
+⅔ cup carrot juice\n
+⅓ cup pineapple juice\n
+3 tablespoons sugar\n
+2 tablespoons honey\n
+1 tablespoon ginger juice (such as The Ginger People)\n
+¼ teaspoon ground cinnamon\n
+Dash of ground cloves\n
+2 (1/4-ounce) packets unflavored gelatin\n
+¾ cup bourbon\n
+½ teaspoon vanilla extract\n
+½ teaspoon almond extract\n
+Cooking spray\n
+Vermouth cream layer\n
+⅔ cup evaporated milk\n
+⅓ cup dry vermouth\n
+2 ½ tablespoons sugar\n
+1 tablespoon fresh lemon juice\n
+1 tablespoon fresh orange juice\n
+½ teaspoon vanilla extract\n
+1 (1/4-ounce) packet unflavored gelatin
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+1. To prepare carrot layer, combine carrot and pineapple juices, 3 tablespoons sugar, honey, ginger juice, cinnamon, and cloves in a saucepan over medium-low heat. Sprinkle 2 packets gelatin over mixture; let stand 1 minute. Increase heat to medium; cook, stirring constantly, until gelatin and sugar dissolve.\n
+2. Remove pan from heat; stir in bourbon, 1/2 teaspoon vanilla, and almond extract. Pour into an 11 x 7-inch glass baking dish lightly coated with cooking spray. Place dish in refrigerator; refrigerate 45 minutes.\n
+3. To prepare cream layer, combine evaporated milk, vermouth, 2 1/2 tablespoons sugar, lemon and orange juices, and 1/2 teaspoon vanilla in a saucepan over medium-low heat; sprinkle 1 packet gelatin over mixture. Increase heat to medium; cook until sugar and gelatin dissolve, stirring constantly. Cool 3 minutes. Gently pour vermouth mixture evenly over carrot mixture in dish. Refrigerate 4 hours or until set. Dip bottom of dish in warm water. Using a sharp knife, cut gelatin into 32 equal cubes; carefully remove from dish using a spatula."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+• Calories 81.\n
+•	Fat 0.9g.\n
+•	Saturated fat 0.5g.\n
+•	Protein 2g.\n
+•	Carbohydrates 9g.\n
+•	Cholesterol 3mg.\n
+•	Sodium 21mg.\n
+•	Calcium 33mg.\n
+•	Sugars 9g.\n
+•	Added sugar 7g."
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

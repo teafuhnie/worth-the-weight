@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".convert">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit Converter"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ft to cm"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+
+        <EditText
+            android:id="@+id/edft"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:hint="ft"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnconvert"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Convert to cm"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        ></Button>
+
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="cm = ?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

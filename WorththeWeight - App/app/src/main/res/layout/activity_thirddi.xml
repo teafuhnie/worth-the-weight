@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinnerthirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/potato"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Roast Chicken and Sweet Potatoes"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        2 tablespoons whole-grain or Dijon mustard\n
+        2 tablespoons chopped fresh thyme or 2 \n
+        teaspoons dried\n
+        2 tablespoons extra-virgin olive oil, divided\n
+        ½ teaspoon salt, divided\n
+        ½ teaspoon freshly ground pepper, divided\n
+        1 1/2-2 pounds bone-in chicken thighs, skin removed\n
+        2 medium sweet potatoes, peeled and cut into \n
+        1-inch pieces\n
+        1 large red onion, cut into 1-inch wedges\n
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Position rack in lower third of oven; preheat to 450 degrees F. Place a large rimmed baking sheet in the oven to preheat.\n
+Combine mustard, thyme, 1 tablespoon oil and 1/4 teaspoon each salt and pepper in a small bowl; spread the mixture evenly on chicken.\n
+Toss sweet potatoes and onion in a bowl with the remaining 1 tablespoon oil and 1/4 teaspoon each salt and pepper. Carefully remove the baking sheet from the oven and spread the vegetables on it. Place the chicken on top of the vegetables.\n
+Return the pan to the oven and roast, stirring the vegetables once halfway through, until the vegetables are tender and beginning to brown and an instant-read thermometer inserted into a chicken thigh registers 165 degrees F, 30 to 35 minutes.
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+•	Calories 408.\n
+•	Carbohydrates 34 g.\n
+•	Dietary fiber 5 g.\n
+•	Fat 17 g.\n
+•	Saturated fat 4 g.\n
+•	Mono Fat 9 g.\n
+•	Protein 27 g.\n
+•	Cholesterol 86 mg.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.worththeweight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorthTheWeight">
+        <activity android:name=".abs"></activity>
+        <activity android:name=".chest" />
+        <activity android:name=".legs" />
+        <activity android:name=".arms" />
+        <activity android:name=".dessert" />
+        <activity android:name=".thirddes" />
+        <activity android:name=".seconddes" />
+        <activity android:name=".firstdes" />
+        <activity android:name=".thirddi" />
+        <activity android:name=".seconddi" />
+        <activity android:name=".firstdi" />
+        <activity android:name=".dinner" />
+        <activity android:name=".thirdlu" />
+        <activity android:name=".secondlu" />
+        <activity android:name=".firstlu" />
+        <activity android:name=".lunch" />
+        <activity android:name=".fourth" />
+        <activity android:name=".third" />
+        <activity android:name=".second" />
+        <activity android:name=".first" />
+        <activity android:name=".breakfast" />
+        <activity android:name=".plan" />
+        <activity android:name=".food" />
+        <activity android:name=".exercises" />
+        <activity android:name=".convert" />
+        <activity android:name=".bmi" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.WorthTheWeight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/salmonegg"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Smoked Trout and Spinach Scrambled Eggs"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        4 large eggs\n
+        2 tablespoons reduced-fat milk\n
+        ¼ teaspoon ground pepper\n
+        Pinch of salt\n
+        2 teaspoons grapeseed oil or avocado oil\n
+        2 tablespoons finely chopped shallot\n
+        ½ cup boned and flaked smoked trout (1 1/2 ounces)\n
+        1 cup chopped spinach
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Whisk eggs, milk, pepper and salt in a medium bowl until pale yellow throughout.\nHeat oil in a medium nonstick skillet over medium heat. Add shallot and cook, stirring, until starting to brown, 1 to 2 minutes. Add the egg mixture and reduce heat to medium-low. Cook, undisturbed, until the edges start to set, about 30 seconds. Sprinkle trout over the eggs. Using a rubber spatula, gently push and fold the eggs until fluffy and barely set, 2 to 4 minutes. Stir in spinach. Remove from heat, cover and let stand until the spinach is just wilted, 1 to 2 minutes."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="•	protein 16.6g\n
+•	carbohydrates 56.1g\n
+•	dietary fiber 7.9g\n
+•	sugars 6g\n
+•	fat 9.1g\n
+•	saturated fat 4.4g\n
+•	cholesterol 26.2mg\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

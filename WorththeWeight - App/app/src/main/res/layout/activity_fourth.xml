@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/blueberryegg"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Blueberry-Lemon Ricotta Pound Cake"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        ¾ cup granulated sugar\n
+        5 tablespoons unsalted butter, at room temperature\n
+        3 large eggs, at room temperature\n
+        ¾ cup part-skim ricotta cheese\n
+        2 tablespoons lemon zest\n
+        2 tablespoons lemon juice plus 1 teaspoon, divided\n
+        1 teaspoon vanilla extract\n
+        1 ½ cups white whole-wheat flour\n
+        2 teaspoons baking powder\n
+        ½ teaspoon salt
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Preheat oven to 350 degrees F. Coat a 9-by-5-inch loaf pan with cooking spray and line the bottom with parchment paper.\n
+Beat sugar and butter in a large bowl with an electric mixer on medium-high speed until creamy. Beat in eggs, one at a time, until fully incorporated. Reduce the mixer speed to medium-low and beat in ricotta, lemon zest, 2 tablespoons lemon juice and vanilla until just combined. Sprinkle flour on top, then evenly sprinkle baking powder and salt over the flour. With the mixer on low speed, beat until almost combined. Add blueberries and gently fold into the batter. Transfer to the prepared pan.\n
+Bake the cake until starting to brown around the edges and a tester inserted in the center comes out clean, about 1 hour. Let cool in the pan on a wire rack for 20 minutes. Run a knife around the edge to loosen the cake, then invert it onto the rack. Carefully turn it right-side up. Let cool completely.\n
+Clean the bowl, add confectioners' sugar and whisk in the remaining 1 teaspoon lemon juice until smooth. Brush the glaze on the cake."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="•	protein 16.6g\n
+•	carbohydrates 56.1g\n
+•	dietary fiber 7.9g\n
+•	sugars 6g\n
+•	fat 9.1g\n
+•	saturated fat 4.4g\n
+•	cholesterol 26.2mg\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

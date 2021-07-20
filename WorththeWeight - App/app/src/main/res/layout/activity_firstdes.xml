@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/berries"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Warmed Berries with Honey and Fresh Cheese"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        1 cup blueberries, divided\n
+        1 cup raspberries, divided\n
+        1 cup blackberries, divided\n
+        6 tablespoons mild honey\n
+        4 large basil leaves, torn\n
+        1 vanilla bean, halved lengthwise\n
+        2 cups 0% fat fromage blanc\n
+        6 small basil sprigs
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+1. Combine half of berries and honey in a small saucepan over low heat; cook 8 minutes or until slightly warmed, gently stirring occasionally. Remove from heat; stir in basil leaves.\n
+2. Scrape seeds from vanilla bean. Combine seeds and cheese in a small bowl, stirring well.\n
+3. Spoon about 1/4 cup cheese mixture into each of 6 glasses or small bowls. Top each serving with about 1/4 cup warm berry mixture. Top each serving with 1/4 cup remaining fresh berries and a basil sprig. Serve immediately."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+• Calories 140.\n
+•	Fat 0.3g.\n
+•	Poly fat 0.2g.\n
+•	Protein 8g.\n
+•	Carbohydrates 28g.\n
+•	Fiber 3g.\n
+•	Cholesterol 7mg.\n
+•	Iron 1mg.\n
+•	Sodium 137mg.\n
+•	Calcium 153mg.\n
+•	Sugars 22g.\n
+•	Added sugar 14g.
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

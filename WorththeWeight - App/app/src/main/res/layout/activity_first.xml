@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:background="@drawable/eggraspberry"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:text="Spinach and Egg Scramble with Raspberries"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="
+        1 pound of boneless and skinless chicken thighs or \n
+        breasts, cut into 1 chunks\n
+        1 egg white\n
+        1/2 teaspoon kosher salt (1/4 teaspoon table salt)\n
+        2 teaspoons cornstarch\n
+        1 (10 ounce) can pineapple chunks (reserve juice)\n
+        1/4 cup juice from the canned pineapple\n
+        1/4 cup white vinegar\n
+        1/4 cup ketchup\n
+        1/2 teaspoon kosher salt (1/4 teaspoon table salt)\n
+        2-3 tablespoons brown sugar\n
+        1 tablespoon + 1 teaspoon cooking oil\n
+        1 red bell pepper, cut into 1 inch chunks\n
+        1 yellow bell pepper, cut into 1 inch chunks\n
+        1 teaspoon grated fresh ginger\n
+        "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Method"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="Coat chicken with egg white, salt, and cornstarch:\n
+In a bowl, combine the chicken with the egg white, salt and cornstarch. Stir to coat the chicken evenly. Let sit for 15 minutes at room temperature or up to overnight in the refrigerator.\n
+Make sweet sour sauce:\n
+Whisk together the pineapple juice, vinegar, ketchup, salt, and brown sugar.\n
+Stir-fry chicken:\n
+Heat a large frying pan or wok over high heat until a bead of water instantly sizzles and evaporates. Pour in 1 tablespoon of cooking oil and swirl to coat. It's important that the pan is very hot.\n
+Add the chicken and spread the chicken out in one layer. Let the chicken fry, untouched for 1 minute, until the bottoms are browned.\n
+Flip and fry the other side for 1 minute. The chicken should still be pinkish in the middle. Dish out the chicken onto a clean plate, leaving as much oil in the pan as possible.\n
+Stir fry bell pepper and ginger:\n
+Turn the heat to medium and add the remaining 1 teaspoon of cooking oil. Let the oil heat up and then add the bell pepper chunks and ginger. Fry for 1 minute.\n
+Add pineapple, sweet sour sauce, let simmer, add chicken:\n
+Add the pineapple chunks and the sweet and sour sauce. Turn the heat to high and when the sauce is simmering, add the chicken pieces back in.\n
+Let simmer for 1-2 minutes, until the chicken is cooked through. Timing depends on how thick you've cut your chicken. The best way to tell if the chicken is done is to take a piece out and cut into it. If it's pink, add another minute to the cooking.\nTaste the sauce and add more brown sugar if you’d like.\n
+"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Nutrition Facts:"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="
+•	Calories 140.\n
+•	Total Fat 3 g.\n
+•	Cholesterol 40 mg.\n
+•	Sodium 200 mg.\n
+•	Carbohydrates 18 g.\n
+•	Protein 11 g.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
